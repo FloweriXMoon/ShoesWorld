@@ -17,6 +17,7 @@ foreach (var dir in root.GetDirectories())
 }
 
 // Файлы
+// Внести изменения в данные строки
 foreach (var file in root.GetFiles())
 {
     Console.WriteLine($"[ФАЙЛ]   {file.Name}  ({file.Length / 1024} КБ)");
